@@ -1,0 +1,419 @@
+/*Author
+
+Name: Nusrat Nishat;
+Mail: nusratnishat565@gmail.com;
+
+*/
+
+/*
+=====Index=====
+
+1. Header
+2. Fusce at
+3. Facilisis
+4. Ante donec
+5. Blandit rhoncus
+6. Placerat
+7. Footer
+
+*/
+
+/*Global CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+
+
+    font-family: 'Bold', sans-serif;    
+}
+
+.btn{
+
+	    background-color: white;
+    color: darkred;
+    font-size: 13px;
+    border-radius: 25px;
+    /* display: block; */
+    border-color: darkred;
+    margin: 55px;
+    margin-bottom: 220px;
+} 
+
+.btn:hover {
+	background-color: maroon;
+	color: #fff;
+	transition: 0.4s ease;
+}
+
+/*Theme CSS*/
+
+nav i {
+	color: #161616;
+}
+
+.nav-head {
+	background-color: #edeff1!important;
+	padding: 35px 0px;
+}
+
+.nav-item {
+	margin: 0px 5px;
+}
+
+.nav-link {
+	color: #161616!important;
+
+}
+
+.nav-link.js-scroll-trigger.active {
+	background-color: #dd4b2b;
+	color: #fff!important;
+	border-radius: 25px;
+	padding: 8px 25px;
+}
+
+.img-center {
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+/*FUSCE section*/
+section{
+
+}
+
+.part-one{
+	background-image: url(../img/banner.png)!important;
+	background-size: cover;
+	text-align: center;
+	
+}
+
+.part-one h2{
+    font-size: 75px;
+    color: #fff;
+    padding-top: 500px;
+    text-align: center;
+
+}
+
+.part-one h5{
+     font-size: 30px;
+    color: #fff;
+    text-align: center;
+     padding-bottom: 165px;
+}
+
+.part-one h3{
+    color: white;
+    font-size: 25px;
+    padding: 25px;
+}
+
+.part-one p{
+    color: white;
+    font-size: 15px;
+}
+/*FUSCE section*/
+
+
+
+/*Facilisis section*/
+
+.part-two{
+    	background-color: #edeff1!important;
+    	text-align: center;
+}
+
+.part-two h4{
+	    font-size: 55px;
+    padding-top: 200px;
+    padding-bottom: 75px;
+}
+
+
+.part-two h2{
+	    font-size: 40px;
+    padding: 40px;
+}
+
+.part-two p{
+	    font-size: 18px;
+}
+
+
+
+/*Facilisis section*/
+
+
+/*Ante donec section*/
+
+.part-three{
+    background-image: url(../img/newsletter.png)!important;
+	background-size: cover;
+	text-align: center;
+}
+
+.part-three h2{
+    color: white;
+    font-size: 35px;
+    padding-top: 137px;
+}
+
+.part-three p{
+    font-size: 18px;
+    color: white;
+    margin: 30px 365px;
+}
+
+.form-control{
+    background-color: transparent;
+    color: white;
+    position: relative;
+    border-radius: 40px;
+}
+
+
+input::placeholder {
+  color: #fff!important;
+}
+
+.btn-ctm{
+    position: absolute;
+    top: 387%;
+    right: 16%;
+    border-radius: 40px;
+    padding: 7px 115px;
+    color: maroon;
+    background-color: white;
+    border-color: maroon;
+    margin-bottom: 40px;
+}
+
+.btn-ctm:hover {
+	background-color: maroon;
+	color: #fff;
+	transition: 0.4s ease;
+}
+
+/*Ante donec section*/
+
+
+/*Blandit section*/
+
+.part-four{
+
+}
+
+.firstpart{
+   margin-top: 110px;
+    padding: 88px;
+}
+
+.secondpart{
+   margin-bottom: 225px;
+    padding: 88px;
+}
+
+ .part-four h6{
+ 	font-size: 15px;
+    margin: 35px 0px;
+}
+
+
+.btn-one{
+    background-color: #dd4b2b;
+    color: white;
+    border-radius: 40px;
+    padding: 3px 80px;
+    border-color: white;
+    border-style: none;
+}
+
+.btn-one:hover{
+    background-color: #4b4e73;
+	color: #fff;
+	transition: 0.4s ease;
+}
+
+.btn-two{
+      background-color: #4b4e73;
+    color: white;
+    border-radius: 40px;
+    padding: 3px 80px;
+    border-color: white;
+    border-style: none;
+}
+
+.btn-two:hover{
+    background-color: #dd4b2b;
+	color: #fff;
+	transition: 0.4s ease;
+}
+
+
+/*Blandit section*/
+
+
+/*Placerat section*/
+
+.part-five{
+    background-color: #d75d0e;
+    text-align: center;
+}
+
+.part-five ul{
+       list-style: none;
+    padding: 125px;
+
+}
+
+.part-five li{
+	color: white;
+	    font-size: 18px;
+}
+
+/*Placerat section*/
+
+
+/*Footer*/
+
+footer{
+    background-image: url(../img/footer.png)!important;
+	background-size: cover;
+	text-align: center;
+}
+
+p{
+
+    padding: 80px;
+    font-size: 20px;
+
+}
+
+/*Footer*/
+
+
+
+/*media query*/
+
+
+
+/*Mobile device start*/
+
+@media only screen and (min-width: 601px){
+
+}
+
+
+/*Mobile device end*/
+
+
+/*small device */
+
+@media (min-width: 602px) and (max-width:768px){ 
+
+
+
+.part-three p{
+    font-size: 18px;
+    color: white;
+    margin: 0px 70px;
+}
+
+.btn-ctm{
+    position: absolute;
+    top: 1273%;
+    right: 7%;
+    border-radius: 40px;
+    padding: 7px 91px;
+    color: maroon;
+    background-color: white;
+    border-color: maroon;
+    margin-bottom: 40px;
+}
+
+
+
+}
+
+/*small device */
+
+/*Medium device start*/
+ 
+
+@media (min-width: 768.01px) and (max-width:1199px){ 
+
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 50.333333%;
+    margin: 3px 165px;
+}
+
+p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: white;
+    color: darkred;
+    font-size: 13px;
+    border-radius: 25px;
+    border-color: darkred;
+    margin: 26px;
+    margin-bottom: 65px;
+}
+
+.part-three p {
+    font-size: 18px;
+    color: white;
+    margin: 30px 143px;
+}
+
+.btn-ctm {
+    position: absolute;
+    top: 983%;
+    right: 5%;
+    border-radius: 40px;
+    padding: 7px 80px;
+    color: maroon;
+    background-color: white;
+    border-color: maroon;
+    margin-bottom: 40px;
+}
+
+.firstpart {
+    margin-top: 110px;
+    padding: 0px;
+}
+
+.btn-two {
+    padding: 6px 72px;
+}
+
+.part-five ul {
+    list-style: none;
+    padding: 40px;
+}
+
+}
+
+	
+/*Medium device end*/
+
+
+/*large device start*/
+
+@media (min-width: 1200.01px){
+
+}
+
+/*large device end*/
